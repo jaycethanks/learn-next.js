@@ -3,6 +3,7 @@ export default function (props) {
   return (
     <div>
       <li>todo:{text}</li>
+      <button onClick={props.onDelete}>delete</button>
     </div>
   );
 }
